@@ -7,13 +7,16 @@
     "start": "webpack serve --open --config webpack.dev.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.prod.js",
-    "watch": "webpack --config webpack.dev.js"
+    "watch": "webpack --watch --config webpack.dev.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.7.0",
     "css-loader": "^7.1.2",
+    "eslint": "^9.7.0",
+    "globals": "^15.8.0",
     "html-webpack-plugin": "^5.6.0",
     "sass": "^1.77.8",
     "sass-loader": "^14.2.1",
