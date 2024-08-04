@@ -8,6 +8,11 @@
 @import "config/variables";
 @import "config/reset";
 
+// Layout
+@import "layouts/container";
+@import "layouts/content";
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/sidebar";
+
 // Components
-@import "components/card";
-@import "components/color";

@@ -3,11 +3,9 @@ import './styles/main.scss';
 
 function component() {
     const element = document.createElement('h1');
-  
-    // Lodash, currently included via a script, is required for this line to work
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  
+    element.innerHTML = "My Tempalte: Webpack, scss"
     return element;
-  }
-  
-  document.body.appendChild(component());
+}
+
+const header = document.querySelector('header');
+header.append(component());

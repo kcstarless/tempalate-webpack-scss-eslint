@@ -1,0 +1,18 @@
+.sidebar {
+    grid-area: sidebar;
+    margin: var(--space-s);
+    border: var(--border-dark);
+    border-radius: var(--border-radius);
+    background-color: var(--color-secondary-bg);
+
+
+  }
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    .profile-title {
+      font-size: var(--font-size-xxl);
+      font-weight: bold;
+    }
+  }
